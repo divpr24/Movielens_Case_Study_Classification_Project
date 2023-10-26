@@ -1,0 +1,25 @@
+#Building a Classifier ML Model to predict the rating of the movie.
+
+
+#Import the necessary library.
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+#Read the data from the csv file.
+data_1 = pd.read_csv('movies.csv', encoding = 'latin-1', sep = '::', engine = 'python')
+print(data_1.head())
+data_1.head()
+
+data_2 = pd.read_csv("users.csv", sep = '::', engine = 'python')
+print(data_2)
+data_2.head()
+
+data_3 = pd.read_csv("ratings.csv", sep = '::', engine = 'python')
+print(data_3.head())
+data_3.head()
+
+
+
+
